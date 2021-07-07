@@ -1,4 +1,4 @@
-# Patty's DMA 2020 Portfolio
+# Patty Ngo's Art Portfolio
 > Media Art Portfolio
 
 ## Table of contents
@@ -18,5 +18,5 @@ Project is: _in progress_
 
 ## Contact
 * Created By Patty Ngo - SJSU Class of 2022
-* Instagram: @patty.psd
+* Instagram: @Pattistry
 * patricia.ngo@sjsu.edu
