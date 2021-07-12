@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Games</title>
+  </head>
+ <link rel="icon" type="image/png" href="img/verytinybee.png">
+  <body>
+    <!--START Header-->
+    <div class="altheader">
+      <a href="index.html"><img src="img/home.png" style="width:60px;height:60px;margin:30px;"></a>
+        <div class="logo">
+          <a href="index.html">
+          <img src="img/games.png" style="height:120px;"> </a>
+        </div>
+    </div>
+  </div>
+    <!-- END Header-->
+    <div class="chee">
+      <nav>
+        <ul>
+          <li><a href="images.html">Graphic Design</a></li>
+          <li><a href="video.html">Videos</a></li>
+          <li><a href="3dobject.html">3D Modeling</a></li>
+          <li><a href="games.html">Games</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+
+    <section class="contentv">
+      <div class="frame">
+          <div class="video">
+            <h1> Platform Hero </h1>
+            <a href="https://nicks-games.itch.io/platform-hero-v4"><img src="img/pfhero.gif" style="width:65%;"></a>
+            <iframe src="https://itch.io/embed/851113" height="117" width="502" frameborder="0"><a href="https://nicks-games.itch.io/platform-hero-v4">Platform-Hero-v4 by nicks-games</a></iframe>
+          <div class="container">
+          <p>Platform Hero is a collaborative project done with SJSU comp sci major Nicholas Burnam. This 2D platformer game involes mutiple levels that each offer a different challenge. As the artist of this project, I was in charge of animations, sprites, backgrounds, scenes, and sound design. Platform Hero provides the player with a nostalgic gameplay experience that allows them to become a courageous hero. </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="frame">
+      <div class="video">
+        <h1> Splash </h1>
+         <a href="https://pattyngo.github.io/ART-101-P4-Final/index.html"><img src="img/fish.png" style="width:75%;height:auto;"></a>
+        <div class="container">
+          <p>Splash is my first solo video game project. The goal of this project was to recreate the exerience of taking care of a pet fish without the risk that comes with having a live animal. This inerface includes multiple scenes show your pet fish doing different actions. These animations were creatind using JavaScript. I was able to experience taking on the role of a programmer and artist in a single project. </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="pointer"></div>
+  <script
+    src="https://code.jquery.com/jquery-3.3.1.js">
+  </script>
+  <script type="text/javascript">
+  $(document).mousemove(function(e){
+      $('.pointer').css({left:e.pageX, top:e.pageY})
+  })
+  </script>
+  </body>
+</html>

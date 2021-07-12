@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Contact</title>
+  </head>
+ <link rel="icon" type="image/png" href="img/verytinybee.png">
+  <body>
+    <!--START Header-->
+    <div class="altheader">
+      <a href="index.html"><img src="img/home.png" style="width:60px;height:60px;margin:30px;"></a>
+        <div class="logo">
+          <a href="index.html">
+          <img src="img/contact.png" style="height:120px;"> </a>
+        </div>
+    </div>
+
+    <div class="chee">
+      <nav>
+        <ul>
+          <li><a href="images.html">Graphic Design</a></li>
+          <li><a href="video.html">Videos</a></li>
+          <li><a href="3dobject.html">3D Modeling</a></li>
+          <li><a href="games.html">Games</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+    <!-- END Header-->
+
+    <section class="contentv">
+      <div class="frame">
+        <!-- contact -->
+        <h1 style="color:#fff;font-weight:bold;margin-left:auto;margin-right:auto;display:block;font-size:40px;">Contact Me</h1>
+        <div class="fcf-body">
+
+    <div id="fcf-form">
+
+    <form id="fcf-form-id" class="fcf-form-class" method="post" action="contact-form-process.php">
+
+        <div class="fcf-form-group">
+            <label for="Name" class="fcf-label">Your name</label>
+            <div class="fcf-input-group">
+                <input type="text" id="Name" name="Name" class="fcf-form-control" required>
+            </div>
+        </div>
+
+        <div class="fcf-form-group">
+            <label for="Email" class="fcf-label">Your email address</label>
+            <div class="fcf-input-group">
+                <input type="email" id="Email" name="Email" class="fcf-form-control" required>
+            </div>
+        </div>
+
+        <div class="fcf-form-group">
+            <label for="Message" class="fcf-label">Your message</label>
+            <div class="fcf-input-group">
+                <textarea id="Message" name="Message" class="fcf-form-control" rows="6" maxlength="3000" required></textarea>
+            </div>
+        </div>
+
+        <div class="fcf-form-group">
+            <button type="submit" id="fcf-button" class="fcf-btn fcf-btn-primary fcf-btn-lg fcf-btn-block">Send Message</button>
+        </div>
+
+    </form>
+    </div>
+
+    </div>
+    <!-- end of contact form -->
+    <a href="https://instagram.com/pattistry"target="_blank" rel="noopener noreferrer"><img src="https://facebookbrand.com/wp-content/uploads/2021/03/Instagram_AppIcon_Aug2017.png?w=300&h=300" style="margin-top:60px;height:80px;"></a>
+      </div>
+    </section>
+
+
+  <div class="pointer"></div>
+  <script
+    src="https://code.jquery.com/jquery-3.3.1.js">
+  </script>
+  <script type="text/javascript">
+  $(document).mousemove(function(e){
+      $('.pointer').css({left:e.pageX, top:e.pageY})
+  })
+  </script>
+  </body>
+</html>
