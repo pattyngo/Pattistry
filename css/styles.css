@@ -24,10 +24,8 @@ a{
   align-items: flex-start;
   align-content: flex-start;
 	text-align: center;
-  height:50vw;
-  min-height:300px;
-  max-height:400px;
-  min-width:300px;
+  height:370px;
+  width:100%;
   color:#eee;
 }
 .altheader{
@@ -138,14 +136,14 @@ a{
   50% { transform: scale(1.2) translateY(-400px)}
 }
 .content{
-  padding:3% 10%;
+  padding:3% 15%;
   text-align:justify;
   background-color: #F2DD86;
   background-image: url("https://i.imgur.com/IoahU4K.jpg");
 }
 /*video*/
 .contentv{
-  padding:3% 10%;
+  padding:3% 15%;
   text-align:center;
 	background-color: #F2DD86;
   background-image: url("https://i.imgur.com/IoahU4K.jpg");
@@ -156,6 +154,7 @@ a{
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   margin-top: 25px;
   margin-bottom: 25px;
+  margin-left, margin right: auto;
   padding: 30px;
   color: #3b3b3b;
 }
