@@ -3,8 +3,8 @@ html,body{
   margin: 0;
   height: auto;
   font-family: 'Raleway', sans-serif;
-  background-color: #F2DD86;
-  background-image: url("https://i.imgur.com/IoahU4K.jpg");
+  background-color: #f2e7b8;
+  /* background-image: url("https://i.imgur.com/IoahU4K.jpg"); */
 }
 a{
   text-decoration:none
