@@ -97,13 +97,13 @@ a{
 }
 .chee ul {width:100% !important;
   min-width:500px;
-  max-width:960px;
+  max-width:860px;
   margin:0 auto;
 }
 .chee li{ float:left;
   list-style:none;
   font-family: 'Arial';
-  width:19%;
+  width:25%;
   color:#545454;
   padding: 13px 0;
   letter-spacing:0.2em;
@@ -138,6 +138,7 @@ a{
 .content{
   padding:3% 15%;
   text-align:justify;
+  background-image: url("https://i.imgur.com/s5s0dEV.png");
   background-color: #f2e7b8;
   /* background-image: url("https://i.imgur.com/IoahU4K.jpg"); */
 }
@@ -145,6 +146,7 @@ a{
 .contentv{
   padding:3% 15%;
   text-align:center;
+  background-image: url("https://i.imgur.com/s5s0dEV.png");
 	background-color: #f2e7b8;
   /* background-image: url("https://i.imgur.com/IoahU4K.jpg"); */
 }
