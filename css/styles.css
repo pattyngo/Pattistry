@@ -104,7 +104,7 @@ a{
   list-style:none;
   font-family: 'Arial';
   width:25%;
-  color:#545454;
+  color:#3d3d3d;
   padding: 13px 0;
   letter-spacing:0.2em;
   font-weight:200;
@@ -113,7 +113,7 @@ a{
   transition:all 0.2s ease;
 }
 .chee a{
-  color:#545454;
+  color:#3d3d3d;
 }
 
 .chee a:hover{color:#4f9cd6; cursor:pointer;}
